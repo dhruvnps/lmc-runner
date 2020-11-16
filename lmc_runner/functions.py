@@ -1,4 +1,4 @@
-from data import Data
+from lmc_runner.data import Data
 
 
 class Functions:

@@ -18,7 +18,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     entry_points={
-        'console_scripts': ['lmc-runner=lmc-runner.command_line:main'],
+        'console_scripts': ['lmc-runner=lmc_runner.__init__:run'],
     },
     python_requires='>=3.6',
 )

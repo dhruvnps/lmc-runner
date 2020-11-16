@@ -1,7 +1,7 @@
 import argparse
 import os
-from functions import Functions
-from data import Data
+from lmc_runner.functions import Functions
+from lmc_runner.data import Data
 
 
 def run():
