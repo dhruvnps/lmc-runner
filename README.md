@@ -24,7 +24,7 @@ optional arguments:
 ```console
 $ lmc-runner [name]
 ```
-Example from inside directory with file named `example.s`
+Example with an LMC assembly code file named `example.txt`
 ```console
-$ lmc-runner example.s
+$ lmc-runner example.txt
 ```

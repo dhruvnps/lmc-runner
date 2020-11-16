@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: lmc-runner
-Version: 0.0.2
+Version: 0.0.3
 Summary: Run LMC assembly code!
 Home-page: https://github.com/dhruvnps/lmc-runner
 Author: dhruvnps
@@ -31,9 +31,9 @@ Description: # lmc-runner
         ```console
         $ lmc-runner [name]
         ```
-        Example from inside directory with file named `example.s`
+        Example with an LMC assembly code file named `example.txt`
         ```console
-        $ lmc-runner example.s
+        $ lmc-runner example.txt
         ```
         
 Platform: UNKNOWN
