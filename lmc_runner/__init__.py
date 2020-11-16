@@ -4,7 +4,7 @@ from functions import Functions
 from data import Data
 
 
-def main():
+def run():
     parser = argparse.ArgumentParser(
         description='Run LMC assembly code!')
     parser.add_argument(
@@ -78,7 +78,3 @@ def execute():
         except:
             print('runtime error on line {}'.format(Data.PC + 1))
             return
-
-
-if __name__ == '__main__':
-    main()

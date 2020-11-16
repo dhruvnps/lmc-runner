@@ -4,9 +4,9 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="lmc-runner-YOUR-USERNAME-HERE",  # Replace with your own username
+    name="lmc-runner",
     version="0.0.1",
-    author="Example Author",
+    author="dhruvnps",
     description="Run LMC assembly code!",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -14,8 +14,11 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache-2.0 License",
         "Operating System :: OS Independent",
     ],
+    entry_points={
+        'console_scripts': ['lmc-runner=lmc-runner.command_line:main'],
+    },
     python_requires='>=3.6',
 )
