@@ -29,12 +29,14 @@ Example with an LMC assembly code file named `example.txt`
 $ lmc-runner example.txt
 ```
 
+## Instruction Set
+Click [here](http://www.yorku.ca/sychen/research/LMC/LMCInstructions.html) for the full LMC instruction set
 
+
+### Sample code
+Example code for adding 2 inputs:
 ```
 INP
-STA 99
-INP
-ADD 99
 STA 99
 INP
 ADD 99
