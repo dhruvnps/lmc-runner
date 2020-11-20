@@ -28,3 +28,16 @@ Example with an LMC assembly code file named `example.txt`
 ```console
 $ lmc-runner example.txt
 ```
+
+
+```
+INP
+STA 99
+INP
+ADD 99
+STA 99
+INP
+ADD 99
+OUT
+HLT
+```
